@@ -1,5 +1,5 @@
 {
-  "name": "UrlShortener",
+  "name": "url",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,5 +12,13 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.19.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "config":"3.2.3",
+    "shortid":"2.2.15",
+    "valid-url":"1.0.9",
+    "express":"4.17.1",
+    "mongoose":"5.7.3"
   }
 }

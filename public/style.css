@@ -1,8 +1,14 @@
-h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
+body{
+    margin-top: 10%;
+    background: -webkit-linear-gradient(left,#e4e1e1,white);
+}
+h1,h2{
+    font-size: 50px; 
+     display: flex;
+    justify-content: center; 
+    background: -webkit-linear-gradient(left,#87c7df,#648896); 
+     -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 input{
     width:400px;
@@ -19,10 +25,13 @@ a{
     justify-content: center;
     font-size: 30px;
     margin-left: 80px;
-    color: blueviolet
+    background: -webkit-linear-gradient(left,#87c7df,#648896); 
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 button{
     height: 50px;
     /* color: aqua; */
-    background-color: aqua;
-}
+    background: -webkit-linear-gradient(left,#87c7df,#648896); 
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}

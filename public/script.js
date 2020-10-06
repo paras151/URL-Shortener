@@ -4,7 +4,7 @@ let res="";
 but.addEventListener('click',async (e)=>{
   console.log("yes  ")
     e.preventDefault();
-    res = await axios.post("https://url-shtnr.herokuapp.com/api/url/shorten",{
+    res = await axios.post("/api/url/shorten",{
         longUrl:url.value
     })
     .then(function (response) {

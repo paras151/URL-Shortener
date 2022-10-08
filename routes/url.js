@@ -11,7 +11,7 @@ router.post('/shorten',async (req,res)=>{
     const baseUrl = config.get('baseUrl');
     
     if(!validUrl.isUri(baseUrl)){
-        return res.status(401).json('invalid base url')
+        return res.status(401).json('Invalid Base URL')
     }
 
     const urlCode = shortid.generate();

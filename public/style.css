@@ -30,7 +30,7 @@ a{
    -webkit-text-fill-color: transparent;
 }
 button{
-    height: 50px;
+    height: 3.125rem;
     /* color: aqua; */
     background: -webkit-linear-gradient(left,#87c7df,#648896); 
     -webkit-background-clip: text;

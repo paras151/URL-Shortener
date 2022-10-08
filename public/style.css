@@ -23,7 +23,7 @@ input{
 a{
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-left: 80px;
     background: -webkit-linear-gradient(left,#87c7df,#648896); 
     -webkit-background-clip: text;

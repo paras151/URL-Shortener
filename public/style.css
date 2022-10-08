@@ -3,7 +3,7 @@ body{
     background: -webkit-linear-gradient(left,#e4e1e1,white);
 }
 h1,h2{
-    font-size: 50px; 
+    font-size: 3.125rem; 
      display: flex;
     justify-content: center; 
     background: -webkit-linear-gradient(left,#87c7df,#648896); 
